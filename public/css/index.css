@@ -1,0 +1,49 @@
+#body{
+    background-color: #a72c20;
+}
+h1{
+    text-align: right;
+
+    margin-bottom: 0px;
+    color: #f1ece1;
+    font-size: 81pt;
+}
+p{
+    margin-bottom: 0px;
+    text-align: right;
+    color: #f1ece1;
+    font-size: 20pt;
+
+}
+a{
+    margin-bottom: 0px;
+    text-align: right;
+    color: #f1ece1;
+    font-size: 20pt;
+
+}
+#background{
+    position: fixed;
+    background-color: #f1ece1;
+    top: 0px;
+    left: 0px;
+    height: 50%;
+    width: 100%;
+    z-index: 1;
+}
+#hossan-logo{
+
+}
+#location-info{
+    top: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#papa-john-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

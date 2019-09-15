@@ -86,3 +86,11 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+.idea/misc.xml
+.idea/hossans-dining-website.iml
+.idea/hossans-dining-website.iml
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+package-lock.json
