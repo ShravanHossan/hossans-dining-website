@@ -2,13 +2,15 @@
     background-color: #a72c20;
 }
 h1{
+    font-family: 'Montserrat', sans-serif;
     text-align: right;
-
+    font-weight: bold;
     margin-bottom: 0px;
     color: #f1ece1;
     font-size: 81pt;
 }
 p{
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 0px;
     text-align: right;
     color: #f1ece1;
@@ -16,6 +18,7 @@ p{
 
 }
 a{
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 0px;
     text-align: right;
     color: #f1ece1;
@@ -39,7 +42,7 @@ a{
     height: 70%;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 25%;
 }
 
 #papa-john-logo{

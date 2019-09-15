@@ -1,16 +1,16 @@
 const express = require('express');
 const port = process.env.PORT || 8080;
 const hbs = require('hbs');
-const http = require('http');
-const https = require('https');
+
 var app = express();
+hbs.registerPartials(__dirname + '/views/partials/');
+app.use(express.static(__dirname, + '/public/'));
 app.use(express.static('public'));
 app.set('view engine', 'hbs');
-app.get('/', (res,req) => {
-    res.render("index.hbs")
+app.get('/', (req,res) => {
+    res.render("index.hbs");
 });
-const httpServer = http.createServer(app);
-const httpsServer = https.createServer(app);
-httpServer.listen(port, () => {
-    console.log('HTTP Server running on port 8080');
+
+app.listen(port, () => {
+    console.log("Server is up on port 8080");
 });
