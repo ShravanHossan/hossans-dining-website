@@ -1,0 +1,52 @@
+#body{
+    background-color: #a72c20;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #f1ece1;
+    font-size: 81pt;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    text-align: right;
+    color: #f1ece1;
+    font-size: 20pt;
+
+}
+#a{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    text-align: right;
+    color: #f1ece1;
+    font-size: 20pt;
+
+}
+#background{
+    position: fixed;
+    background-color: #f1ece1;
+    top: 0px;
+    left: 0px;
+    height: 50%;
+    width: 100%;
+    z-index: 1;
+}
+#hossan-logo{
+
+}
+#location-info{
+    top: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#papa-john-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
